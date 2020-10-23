@@ -1,4 +1,4 @@
-FROM node:8.11.4-jessie
+FROM node:10.22.1-stretch
 
 RUN apt-get update && apt-get install wget -y
 
