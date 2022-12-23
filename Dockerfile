@@ -1,4 +1,4 @@
-FROM node:10.22.1-stretch
+FROM node:16.19.0-buster
 
 RUN apt-get update && apt-get install wget -y
 
