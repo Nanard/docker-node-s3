@@ -1,4 +1,4 @@
-FROM node:16.19.0-buster
+FROM node:18.18.2-buster
 
 RUN apt-get update && apt-get install wget -y
 
